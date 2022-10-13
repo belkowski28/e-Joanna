@@ -13,9 +13,9 @@
    <top>
       <AnchorPane prefHeight="94.0" prefWidth="600.0" style="-fx-background-color: #1d4615;" BorderPane.alignment="CENTER">
          <children>
-            <HBox alignment="TOP_CENTER" layoutX="-15.0" layoutY="13.0" prefHeight="119.0" prefWidth="575.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-15.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <HBox alignment="TOP_CENTER" layoutX="-15.0" layoutY="13.0" spacing="30.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                <children>
-                  <ImageView fitHeight="119.0" fitWidth="478.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="119.0" fitWidth="142.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../pgn/e-joanna.png" />
                      </image>
@@ -25,6 +25,11 @@
                         <Font size="31.0" />
                      </font>
                   </Label>
+                  <ImageView fitHeight="160.0" fitWidth="198.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pgn/logo.png" />
+                     </image>
+                  </ImageView>
                </children>
             </HBox>
          </children>
