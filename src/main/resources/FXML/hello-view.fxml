@@ -6,36 +6,31 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
-<?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="485.0" prefWidth="1028.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
    <top>
       <AnchorPane prefHeight="94.0" prefWidth="600.0" style="-fx-background-color: #1d4615;" BorderPane.alignment="CENTER">
-         <children>
-            <HBox alignment="TOP_CENTER" layoutX="-15.0" layoutY="13.0" spacing="30.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-               <children>
-                  <ImageView fitHeight="119.0" fitWidth="142.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../pgn/e-joanna.png" />
-                     </image>
-                  </ImageView>
-                  <Label alignment="CENTER" prefHeight="76.0" prefWidth="290.0" text="e - Joanna" textFill="#f2efec">
-                     <font>
-                        <Font size="31.0" />
-                     </font>
-                  </Label>
-                  <ImageView fitHeight="160.0" fitWidth="198.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../pgn/logo.png" />
-                     </image>
-                  </ImageView>
-               </children>
-            </HBox>
-         </children>
          <BorderPane.margin>
             <Insets />
          </BorderPane.margin>
+         <children>
+            <ImageView fitHeight="132.0" fitWidth="128.0" layoutX="8.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="8.0" AnchorPane.topAnchor="5.0">
+               <image>
+                  <Image url="@../pgn/e-joanna.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="160.0" fitWidth="198.0" layoutX="830.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="5.0">
+               <image>
+                  <Image url="@../pgn/logo.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="369.0" layoutY="31.0" prefHeight="76.0" prefWidth="290.0" text="e - Joanna" textFill="#f2efec" AnchorPane.bottomAnchor="31.0" AnchorPane.leftAnchor="369.0" AnchorPane.rightAnchor="369.0" AnchorPane.topAnchor="31.0">
+               <font>
+                  <Font size="31.0" />
+               </font>
+            </Label>
+         </children>
       </AnchorPane>
    </top>
 </BorderPane>
